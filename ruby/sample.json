@@ -1,0 +1,7 @@
+{
+  "_id": {
+    "$oid": "52cea648248ac8ea9ab33a38"
+  },
+    "day": "2014-01-09",
+    "json": "{\"timestamp\":\"2014-01-09T13:38:16.000Z\",\"id\":\"52cea648248ac8ea9ab33a38\",\"attachment_id\":\"cQSOu7-ojkz6CW8g-farhJ\",\"account_id\":\"51a8a55088e1f10002000020\",\"event\":\"\\/flexi\\/printjobs\",\"software_id\":\"0058032\",\"params\":{\"jobname\":\"Untitled_5.pdf\",\"outputdateandtime\":\"1389274681\",\"outputiccprofile\":\"Oracal 3551_CMYK_720x720_SpotON_ VariableDot.icc\",\"resolution\":\"720x720\",\"printer\":\"CJV30-100\",\"joblength\":37.639735520864775,\"jobwidth\":19.405238369594063,\"inks\":[\"Cyan\",\"Magenta\",\"Yellow\",\"Black\"],\"copies\":1,\"jobtype\":\"PrintJob\",\"colormode\":\"CMYK (2 bits)\",\"inkconsumption\":[0.283215972,0.319005129,0.158369106,0.206480718],\"mediatype\":\"Oracal 3551\"}}"
+}
