@@ -14,19 +14,24 @@ Dependencies
 - Redis must be installed
 
 Start Redis
+
     redis-server
 
 Clone Repo
+
     git clone git@github.com:campeterson/simple-data-service.git
 
 Bundle Gems
+
     cd simple-data-service/ruby
     bundle install
 
 Start the server
+
     bundle exec rackup
 
 Start sending data
+
     curl -i -H "Content-Type: application/json" -H "Accept: application/json" -X POST -d '{"person":{"name":"bob", "created_at": 1390838634}}' http://localhost:9292/data/
 
 ### Benchmark test
