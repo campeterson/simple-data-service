@@ -35,4 +35,4 @@ Start sending data
     curl -i -H "Content-Type: application/json" -H "Accept: application/json" -X POST -d '{"person":{"name":"bob", "created_at": 1390838634}}' http://localhost:9292/data/
 
 ### Benchmark test
-     ab -n 1000 -c 10 -p sample.json -T "application/json; charset=utf-8" http://localhost:9292/data/
+     ab -n 1000 -c 10 -p ../sample.json -T "application/json; charset=utf-8" http://localhost:9292/data/
